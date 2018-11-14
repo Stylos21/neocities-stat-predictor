@@ -60,5 +60,5 @@ model.fit(xs, ys, { epochs: 1000 })
     .then(() => {
         const res = model.predict(tf.tensor2d([date, month, year], [1, 3]));
         const index = res.argMax(1).dataSync();
-        console.log(hitRanges[index]);
+        console.log(hitRanges[index] + " hits");
     })
