@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^0.13.4",
-    "cheerio": "^1.0.0-rc.2"
+    "cheerio": "^1.0.0-rc.12"
   }
 }
